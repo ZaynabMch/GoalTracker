@@ -1,6 +1,5 @@
 
 Youtube demo-video: https://www.youtube.com/watch?v=dJZeQ5vBqVU
-GitHub respository: 
 
 
 ## Get started
