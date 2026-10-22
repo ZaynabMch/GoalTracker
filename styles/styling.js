@@ -285,4 +285,218 @@ export const styles = StyleSheet.create({
     fontWeight: '600',
   },
 
+
+  // Knap til at rydde søgningen og andre sekundære handlinger.
+  secondaryButton: {
+    backgroundColor: '#F0F5FF',
+    borderRadius: 12,
+    paddingVertical: 12,
+    paddingHorizontal: 14,
+    alignItems: 'center',
+    marginTop: 12,
+    marginBottom: 12,
+  },
+
+  secondaryButtonText: {
+    color: '#007AFF',
+    fontSize: 15,
+    fontWeight: '600',
+  },
+
+  disabledButtonText: {
+    color: '#999999',
+  },
+
+  resultCount: {
+    color: '#666666',
+    fontSize: 14,
+    marginTop: 14,
+    marginBottom: 8,
+  },
+
+  // Kortet viser den samlede gennemførelsesprocent.
+  progressCard: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 16,
+    padding: 22,
+    marginTop: 8,
+    marginBottom: 14,
+    borderWidth: 1,
+    borderColor: '#E7E6EC',
+    alignItems: 'center',
+  },
+
+  progressNumber: {
+    fontSize: 42,
+    fontWeight: '700',
+    color: '#007AFF',
+  },
+
+  progressLabel: {
+    fontSize: 15,
+    color: '#666666',
+    marginTop: 4,
+    marginBottom: 20,
+  },
+
+  progressTrack: {
+    width: '100%',
+    height: 10,
+    backgroundColor: '#E7E6EC',
+    borderRadius: 10,
+    overflow: 'hidden',
+  },
+
+  progressFill: {
+    height: '100%',
+    backgroundColor: '#25A244',
+    borderRadius: 10,
+  },
+
+  statCard: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 14,
+    padding: 18,
+    marginBottom: 12,
+    borderWidth: 1,
+    borderColor: '#E7E6EC',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+
+  statNumber: {
+    fontSize: 25,
+    fontWeight: '700',
+    color: '#203354',
+  },
+
+  statLabel: {
+    fontSize: 15,
+    color: '#555555',
+  },
+
+  historyContent: {
+    paddingBottom: 28,
+  },
+
+  historySummary: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 18,
+    padding: 20,
+    marginTop: 12,
+    marginBottom: 14,
+    borderWidth: 1,
+    borderColor: '#E7E6EC',
+  },
+
+  historyEyebrow: {
+    fontSize: 11,
+    fontWeight: '700',
+    letterSpacing: 1,
+    color: '#777777',
+  },
+
+  historyPercentage: {
+    fontSize: 42,
+    fontWeight: '700',
+    color: '#4C956C',
+    marginTop: 8,
+  },
+
+  historySummaryText: {
+    fontSize: 14,
+    color: '#666666',
+    marginBottom: 16,
+  },
+
+  historyTrack: {
+    height: 9,
+    backgroundColor: '#E8E8EC',
+    borderRadius: 8,
+    overflow: 'hidden',
+  },
+
+  historyFill: {
+    height: '100%',
+    backgroundColor: '#4C956C',
+    borderRadius: 8,
+  },
+
+  historyStats: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 20,
+  },
+
+  historyStat: {
+    alignItems: 'center',
+    flex: 1,
+  },
+
+  historyStatNumber: {
+    fontSize: 22,
+    fontWeight: '700',
+    color: '#26364A',
+  },
+
+  historyStatLabel: {
+    fontSize: 12,
+    color: '#666666',
+    marginTop: 4,
+  },
+
+  reflectionCard: {
+    backgroundColor: '#EDF5EF',
+    borderRadius: 16,
+    padding: 16,
+    marginBottom: 24,
+  },
+
+  reflectionHeading: {
+    fontSize: 16,
+    fontWeight: '700',
+    color: '#315D43',
+    marginBottom: 8,
+  },
+
+  reflectionText: {
+    fontSize: 14,
+    lineHeight: 21,
+    color: '#315D43',
+  },
+
+  historySectionTitle: {
+    fontSize: 19,
+    fontWeight: '700',
+    color: '#26364A',
+    marginTop: 8,
+    marginBottom: 5,
+  },
+
+  historySectionSubtitle: {
+    fontSize: 13,
+    color: '#777777',
+    marginBottom: 12,
+  },
+
+  historyDisabledButton: {
+    opacity: 0.45,
+  },
+  completeButton: {
+    backgroundColor: '#4C956C',
+    borderRadius: 12,
+    paddingVertical: 14,
+    paddingHorizontal: 16,
+    alignItems: 'center',
+    marginTop: 12,
+    marginBottom: 8,
+  },
+  
+  completeButtonText: {
+    color: '#FFFFFF',
+    fontSize: 15,
+    fontWeight: '600',
+  },
+
 });

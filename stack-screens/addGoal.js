@@ -24,7 +24,7 @@ export default function AddGoalScreen({ navigation, addGoal }) {
       return;
     }
 
-    // Her sender jeg alle oplysningerne videre til App.js.
+    // Her sender vi alle oplysningerne videre til App.js.
     addGoal(
       title.trim(),
       category,
